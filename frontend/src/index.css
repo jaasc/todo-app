@@ -1,0 +1,26 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+  }
+
+  :root{
+    --PBrightBlue: hsl(220, 98%, 61%);
+    --CheckBackground: linear-gradient(to bottom right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    --LTveryLightGray: hsl(0, 0%, 98%);
+    --LTveryLightGrayishBlue: hsl(236, 33%, 92%);
+    --LTlightGrayishBlue: hsl(233, 11%, 84%);
+    --LTdarkGrayishBlue: hsl(236, 9%, 61%);
+    --LTveryDarkGrayishBlue: hsl(235, 19%, 35%);
+    --DTveryDarkBlue: hsl(235, 21%, 11%);
+    --DTveryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+    --DTlightGrayishBlue: hsl(234, 39%, 85%);
+    --DTlightGrayishBlueHover: hsl(236, 33%, 92%);
+    --DTdarkGrayishBlue: hsl(234, 11%, 52%);
+    --DTveryDarkGrayishBlue: hsl(233, 14%, 35%);
+    --DTveryDarkGrayishBlueHover: hsl(237, 14%, 26%);
+  }
