@@ -1,4 +1,4 @@
-export const url = "https://todo-app-jaasc.vercel.app";
+export const url = "https://jtodo-app.herokuapp.com";
 
 export const setHeaders = () => {
     const header = {
